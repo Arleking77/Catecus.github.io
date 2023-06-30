@@ -1,0 +1,42 @@
+/*STYLE.CSS*/
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header {
+  height: 4em;
+  padding: 4em;
+  font-size: 2em;
+  background-image: url("../img/lego\ logo\ 2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.header h1 {
+  margin: 0px;
+  color: rgb(11, 218, 80);
+}
+.header p {
+  color: rgb(9, 211, 60);
+}
+.products {
+  width: 80%;
+  margin: auto;
+}
+
+.products td {
+  width: 50%;
+  padding: 2m;
+}
+
+.products img {
+  width: 100%;
+  border: solid 1px;
+}
+.footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
